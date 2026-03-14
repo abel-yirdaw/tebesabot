@@ -1,0 +1,40 @@
+# Core
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+
+# Database - Supabase
+supabase==2.0.3
+postgrest==0.10.0
+
+# Image Processing
+Pillow==10.1.0
+opencv-python-headless==4.8.1.78
+numpy==1.24.3
+
+# AI/ML for photo verification
+torch==2.1.0
+torchvision==0.16.0
+transformers==4.35.0
+face-recognition==1.3.0
+
+# Storage & CDN
+boto3==1.28.0  # For Supabase storage
+
+# Serverless
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# Monitoring
+prometheus-client==0.19.0
+psutil==5.9.6
+
+# Async
+aiohttp==3.9.1
+asyncio==3.4.3
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+redis==5.0.1  # For caching
+celery==5.3.4  # For background tasks
